@@ -55,7 +55,7 @@ def get_snippets():
 
     return jsonify(snippets)
 
-
+print("Backend Version 2")
 @app.route("/snippets", methods=["POST"])
 def add_snippet():
     data = request.json

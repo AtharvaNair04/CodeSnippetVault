@@ -6,7 +6,7 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
+console.log("Version 2 build");
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
